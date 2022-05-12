@@ -428,7 +428,7 @@ div {
 /* Footer */
 .footer-w {
   background: lightblue;
-  color: black;
+  color: rgba(0 0 0 / 80%);
 }
 
 /* footer Wrap */
