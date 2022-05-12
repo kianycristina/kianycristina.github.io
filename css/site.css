@@ -336,6 +336,16 @@ div {
   margin-top: 10px;
 }
 
+
+/* vídeo do Trailer */
+.sobre_ex iframe {
+  align-items: flex-end;
+  width: 80%;
+  height: 480px;
+  margin-top: 40px;
+  border-radius: 4px;
+}
+
 /* GVT */
 .sobre_gvt-w {
   background: url('../imgs/gvt/background.png');
@@ -408,8 +418,7 @@ div {
 
 /* foto */
 .gal-photo {
-  /*margin: 3px 0;*/
-  box-shadow: 0 4px 4px rgba(0 0 0 / 25%);
+  /*box-shadow: 0 4px 4px rgba(0 0 0 / 25%);*/
 }
 
 /* Footer */
@@ -558,6 +567,11 @@ div {
     height: 100%;
     border-radius: 0;
     background: rgba(0 0 0 / 60%);
+  }
+
+  .sobre_ex iframe {
+    width: 100%;
+    margin-top: 40px; 
   }
   
   .sobre_ex-text, .sobre_gvt-text, .agr-text {
