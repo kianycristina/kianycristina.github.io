@@ -269,6 +269,10 @@ div {
   padding: 100px 0;
 }
 
+.sobre_ex {
+  padding: 100px 0 0 0;
+}
+
 /* subtítulo */
 .sobre_ex-sub, .sobre_gvt-sub, .agr-sub {
   margin-top: 20px;
@@ -342,7 +346,7 @@ div {
   align-items: flex-end;
   width: 80%;
   height: 480px;
-  margin-top: 40px;
+  margin: 40px 0;
   border-radius: 4px;
 }
 
@@ -568,11 +572,6 @@ div {
     border-radius: 0;
     background: rgba(0 0 0 / 60%);
   }
-
-  .sobre_ex iframe {
-    width: 100%;
-    margin-top: 40px; 
-  }
   
   .sobre_ex-text, .sobre_gvt-text, .agr-text {
     padding: 0 10%;
@@ -586,6 +585,12 @@ div {
 
   /* descrição */
   .sobre_ex .sobre_ex-desc, .sobre_gvt .sobre_gvt-desc, .agr .agr-desc {}
+
+  /* vídeo do Trailer */
+  .sobre_ex iframe {
+    width: 100%;
+    margin: 40px 0 0 0; 
+  }
 
   /* GVT */
   .sobre_gvt-w {}
